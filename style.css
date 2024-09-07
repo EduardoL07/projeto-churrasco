@@ -1,5 +1,6 @@
 
-.conteiner {
+.container {
    max-width: 300px; 
    margin: auto;
+   background-color: aliceblue;
 }
