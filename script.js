@@ -5,7 +5,6 @@ let inputDuracao = document.getElementById("duracao");
 let resultado = document.getElementById("resultado");
 
 function calcular() {
-    console.log("Calculando...");
 
     let adultos = inputAdultos.Value;
     let criancas = inputCrianças.Value;
@@ -25,7 +24,7 @@ function calcular() {
 function carnePP(duracao) {
     if (duracao >= 6) {
         return 650;
-    }else{
+    } else {
         return 400;
     }
     
@@ -34,7 +33,7 @@ function carnePP(duracao) {
     function cervejaPP(duracao) {
         if(duracao >= 6) {
             return 2000;
-        }else{
+        } else {
             return 1200;
         }
     }
@@ -42,7 +41,7 @@ function carnePP(duracao) {
         function bebidasPP(duracao) {
             if(duracao >= 6) {
                 return 1500;
-            }else{
+            } else {
                 return 1000;
             }
         }
